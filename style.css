@@ -4,8 +4,8 @@
 }
 
 body{ 
-    background-color: #F9E8D9;
-    /* cursor: ; */
+    background-image: repeating-radial-gradient(#FFF78A, #F9E8D9, #FAEED1);
+    cursor: url("./hombre-de-jengibre.png"), auto;
 }
 
 div{
@@ -27,12 +27,14 @@ img {
 
 img:hover{
     border-style: groove;
+    cursor: url("./copo-de-nieve.png"), auto;
 }
 
 h1{
     text-align: center;
     font-size: 2em;
     color: #DB7D76;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -40,7 +42,8 @@ h2{
     text-align: center;
     font-size: 100;
     color: #d86690;
-    border: 2px black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h3{
@@ -48,10 +51,8 @@ h3{
     color: #163020;
 }
 
-.middle{
-     /* background-color: #717F7E;  */
-     /* mix-blend-mode: hard-light; */
-    
+.hobbies{
+    list-style-type: square;
 }
 
 .hobbies:hover{
@@ -69,6 +70,8 @@ a:hover{
     color: #5F0F40;
     text-decoration: underline;
     font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: url("./copo-de-nieve.png"), auto;
 }
 
 #u-list {   
@@ -77,5 +80,16 @@ a:hover{
 
 .o-list{
     text-decoration: none;
-    color: #163020;
+    color: black;
+    font-weight: bold;
+}
+
+.project{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1GotkZMufOlO1bl2Pip0rj43F9ukgThvjfQ&usqp=CAU);
+    opacity: 80%;
+    
+}
+
+#project-tit{
+    color: wheat;
 }
