@@ -87,7 +87,8 @@ a:hover{
 .project{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1GotkZMufOlO1bl2Pip0rj43F9ukgThvjfQ&usqp=CAU);
     opacity: 80%;
-    
+    margin: 1px;
+    padding: 1px;
 }
 
 #project-tit{
