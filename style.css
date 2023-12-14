@@ -1,21 +1,76 @@
 
-body{
-    font-family: 'Montserrat', sans-serif;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{ 
+    background-color: #F9E8D9;
+    /* cursor: ; */
+}
+
+div{
+    /* background-color: #88AB8E; */
+    /* padding: 50px 10px 50px 10px; */
+    text-align: left;
+}
+
+.main-container{
+    /* background-color: #7b7fb8d5; */
+    width: 100%; /*vw se refiere a view width o sea que depende de la pantalla y cuantos pixeles disponibles tiene. */
+    height: 100%; /*vh de refiere a view height*/
+    overflow: hidden;
+}
+
+img {
+    border-radius: 50px;
+}
+
+img:hover{
+    border-style: groove;
 }
 
 h1{
     text-align: center;
-    font-size: 200;
-    color: green;
+    font-size: 2em;
+    color: #DB7D76;
 }
+
 
 h2{
     text-align: center;
     font-size: 100;
-    color: #808000;
+    color: #d86690;
+    border: 2px black;
 }
-h3, p{
+
+h3{
     text-align: center;
+    color: #163020;
 }
 
+.middle{
+     /* background-color: #717F7E;  */
+     /* mix-blend-mode: hard-light; */
+    
+}
 
+.hobbies:hover{
+    color: #5F0F40;
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+.links {
+    color: #0F2167;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5F0F40;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+#u-list {   
+    list-style-type: none;
+}
