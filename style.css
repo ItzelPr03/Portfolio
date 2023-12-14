@@ -74,3 +74,8 @@ a:hover{
 #u-list {   
     list-style-type: none;
 }
+
+.o-list{
+    text-decoration: none;
+    color: #163020;
+}
