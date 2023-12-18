@@ -78,6 +78,11 @@ a:hover{
     list-style-type: none;
 }
 
+#list-main{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .o-list{
     text-decoration: none;
     color: black;
@@ -93,4 +98,16 @@ a:hover{
 
 #project-tit{
     color: wheat;
+}
+
+form {
+    color: #d86690;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hobbies-li{
+    list-style-type: square;
+    text-decoration: none;
+    text-align: center;
 }
